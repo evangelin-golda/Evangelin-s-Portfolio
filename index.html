@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evangelin Golda's Portfolio</title>
+  <link rel="icon" type="image/png" href="assets/images/icon.png">
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Animated Ambient Background -->
+  <div class="background"></div>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#home" class="nav-brand">
+      <img src="assets/images/profile.jpeg" alt="Evangelin Golda" class="nav-avatar">
+      <span>EVANGELIN</span> GOLDA
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#certificates">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="assets/docs/Evangelin_Golda_Resume.pdf" download="Evangelin_Golda_Resume.pdf" class="nav-resume-btn"><i class="fa-solid fa-file-arrow-down"></i> Resume</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="home">
+    <div class="hero-wrapper">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span>Open for Internships</span>
+        </div>
+
+        <h3>Hi, I'm</h3>
+        <h1>Evangelin Golda</h1>
+        <p class="hero-subtitle">AI/ML & Generative AI Enthusiast | CSE Undergraduate</p>
+
+        <p class="hero-bio">
+          Third-year B.E. Computer Science student building AI-powered solutions with Machine Learning and Generative AI to tackle real-world problems. 1st prize winner at a national-level hackathon and author of an IEEE paper accepted at ICCE 2026.
+        </p>
+
+        <div class="hero-cta">
+          <a href="assets/docs/Evangelin_Golda_Resume.pdf" download="Evangelin_Golda_Resume.pdf" class="btn-primary">
+            <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+          </a>
+          <a href="#projects" class="btn-secondary">
+            <i class="fa-solid fa-rocket"></i> View Projects
+          </a>
+          <a href="#contact" class="btn-secondary">
+            <i class="fa-solid fa-paper-plane"></i> Get in Touch
+          </a>
+          <div class="social-links">
+            <a href="https://github.com/evangelin-golda" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/evangelingolda" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://leetcode.com/u/EVANGELIN_GOLDA" target="_blank" rel="noopener noreferrer" class="social-btn" title="LeetCode">
+              <i class="fa-solid fa-code"></i>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=goldaevangelin897@gmail.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="Compose Email in Gmail">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="profile-container">
+          <div class="profile-ring"></div>
+          <img src="assets/images/profile.jpeg" alt="Evangelin Golda" class="profile">
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Highlights Bar -->
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <div class="metric-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="metric-value">8.8 / 10</div>
+        <div class="metric-label">CGPA (up to Semester IV)</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-icon"><i class="fa-solid fa-trophy"></i></div>
+        <div class="metric-value">1st Prize</div>
+        <div class="metric-label">National-Level Hackathon</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-icon"><i class="fa-solid fa-file-lines"></i></div>
+        <div class="metric-value">ICCE 2026</div>
+        <div class="metric-label">Accepted IEEE Conference Paper</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-icon"><i class="fa-solid fa-laptop-code"></i></div>
+        <div class="metric-value">297+ Solved</div>
+        <div class="metric-label">LeetCode Problem Solving</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="section-header">
+      <span class="section-tag">Overview</span>
+      <h2>About Me</h2>
+      <p>Passionate about engineering intelligent systems and solving high-impact problems</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card-primary">
+        <h3><i class="fa-solid fa-user-astronaut"></i> Background & Vision</h3>
+        <p>
+          I am a dedicated Computer Science and Engineering student at Nandha Engineering College with a strong passion for Machine Learning, Generative AI, and software engineering.
+        </p>
+        <p>
+          My work spans building intelligent risk analysis tools, AI-powered welfare platforms, and machine learning research for security applications. I combine strong algorithmic foundations with modern AI dev tools to craft reliable and user-centric solutions.
+        </p>
+        <p>
+          Currently seeking an <strong>Internship</strong> where I can collaborate with forward-thinking engineering teams to design, build, and deploy production-grade software.
+        </p>
+      </div>
+
+      <div class="about-meta">
+        <div class="meta-box">
+          <h4><i class="fa-solid fa-building-columns"></i> Education</h4>
+          <p class="meta-highlight">Nandha Engineering College</p>
+          <p>B.E. Computer Science and Engineering (2024–2028)</p>
+          <p><span class="meta-highlight">Academic Performance:</span> CGPA 8.8 / 10 (up to Semester IV)</p>
+        </div>
+
+        <div class="meta-box">
+          <h4><i class="fa-solid fa-language"></i> Languages</h4>
+          <p>Effective cross-cultural and technical communication</p>
+          <div class="lang-tags">
+            <span class="lang-tag"><strong>English:</strong> Professional</span>
+            <span class="lang-tag"><strong>Tamil:</strong> Native</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="section-header">
+      <span class="section-tag">Expertise</span>
+      <h2>Technical Skills</h2>
+      <p>Core competencies across artificial intelligence, programming, data science, and modern dev tools</p>
+    </div>
+
+    <div class="skills-category-grid">
+      <div class="skill-category-card">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>AI / ML</h3>
+        </div>
+        <div class="skill-tags-list">
+          <span class="skill-pill">Machine Learning</span>
+          <span class="skill-pill">Deep Learning</span>
+        </div>
+      </div>
+
+      <div class="skill-category-card">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3>Generative AI</h3>
+        </div>
+        <div class="skill-tags-list">
+          <span class="skill-pill">LLM Fundamentals</span>
+          <span class="skill-pill">Generative AI</span>
+        </div>
+      </div>
+
+      <div class="skill-category-card">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Data Science</h3>
+        </div>
+        <div class="skill-tags-list">
+          <span class="skill-pill">NumPy</span>
+          <span class="skill-pill">Pandas</span>
+          <span class="skill-pill">Data Analytics</span>
+        </div>
+      </div>
+
+      <div class="skill-category-card">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Programming</h3>
+        </div>
+        <div class="skill-tags-list">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">Java</span>
+        </div>
+      </div>
+
+      <div class="skill-category-card">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon"><i class="fa-solid fa-layer-group"></i></div>
+          <h3>Web Fundamentals</h3>
+        </div>
+        <div class="skill-tags-list">
+          <span class="skill-pill">HTML</span>
+          <span class="skill-pill">CSS</span>
+          <span class="skill-pill">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="skill-category-card">
+        <div class="skill-category-header">
+          <div class="skill-cat-icon"><i class="fa-solid fa-robot"></i></div>
+          <h3>AI Dev Tools</h3>
+        </div>
+        <div class="skill-tags-list">
+          <span class="skill-pill">Google AI Studio</span>
+          <span class="skill-pill">Anti Gravity</span>
+          <span class="skill-pill">Lovable</span>
+          <span class="skill-pill">ChatGPT</span>
+          <span class="skill-pill">Claude</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="section-header">
+      <span class="section-tag">Portfolio</span>
+      <h2>Featured Projects</h2>
+      <p>Real-world applications applying AI and machine learning to high-impact domains</p>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project 1: CryptoSentry AI -->
+      <div class="project-card">
+        <div>
+          <div class="project-header">
+            <span class="project-type">AI Security Platform</span>
+            <span class="project-icon"><i class="fa-solid fa-shield-halved"></i></span>
+          </div>
+          <h3>CryptoSentry AI</h3>
+          <p class="project-subtitle">Crypto Scam Verification & Risk Assessment Platform</p>
+          <ul class="project-description">
+            <li>Developed an AI-powered platform that verifies cryptocurrency investment claims by analyzing market data, smart contract details, and security indicators.</li>
+            <li>Generates evidence-based risk assessments and visual reports so users can spot potential crypto scams before investing.</li>
+          </ul>
+        </div>
+        <div class="project-tech-tags">
+          <span class="project-tag">AI/ML</span>
+          <span class="project-tag">Smart Contract Analysis</span>
+          <span class="project-tag">Risk Assessment</span>
+          <span class="project-tag">Market Data</span>
+          <span class="project-tag">Python</span>
+        </div>
+      </div>
+
+      <!-- Project 2: WelfareIntel -->
+      <div class="project-card">
+        <div>
+          <div class="project-header">
+            <span class="project-type">Recommendation Engine</span>
+            <span class="project-icon"><i class="fa-solid fa-hand-holding-heart"></i></span>
+          </div>
+          <h3>WelfareIntel</h3>
+          <p class="project-subtitle">AI-Powered Welfare Recommendation Platform</p>
+          <ul class="project-description">
+            <li>Designed an AI-based platform concept that helps citizens discover relevant Tamil Nadu welfare schemes and educational scholarships.</li>
+            <li>Delivers personalized scheme recommendations and simplified access to information through intelligent eligibility profiling.</li>
+          </ul>
+        </div>
+        <div class="project-tech-tags">
+          <span class="project-tag">Recommendation System</span>
+          <span class="project-tag">Generative AI</span>
+          <span class="project-tag">Information Access</span>
+          <span class="project-tag">Public Welfare</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Section -->
+  <section id="research">
+    <div class="section-header">
+      <span class="section-tag">Publications</span>
+      <h2>Research & Papers</h2>
+      <p>Academic contributions pushing the frontier of ML-powered cybersecurity</p>
+    </div>
+
+    <div class="research-card">
+      <div class="research-top-badge">
+        <span class="ieee-badge">
+          <i class="fa-solid fa-award"></i> Accepted Paper — 2026 IEEE International Conference for Convergence in Engineering (ICCE)
+        </span>
+        <span class="conf-date">
+          <i class="fa-regular fa-calendar-check"></i> Conference Date: 19–21 November 2026
+        </span>
+      </div>
+
+      <h3>Hybrid Feature Selection for URL Vulnerability Detection Using Random Forest and XGBoost</h3>
+
+      <div class="research-metrics-row">
+        <div class="research-metric-box">
+          <div class="val">88.48%</div>
+          <div class="lbl">Detection Accuracy Achieved</div>
+        </div>
+        <div class="research-metric-box">
+          <div class="val">Hybrid Model</div>
+          <div class="lbl">Random Forest + XGBoost Ensemble</div>
+        </div>
+        <div class="research-metric-box">
+          <div class="val">ICCE 2026</div>
+          <div class="lbl">IEEE International Conference</div>
+        </div>
+      </div>
+
+      <div class="research-details">
+        <p>
+          Developed an optimized URL vulnerability detection architecture employing a hybrid feature selection mechanism with Random Forest and XGBoost classifiers. The framework efficiently isolates malicious patterns in web addresses, outperforming standard single-model baselines with an <strong>88.48% classification accuracy</strong>.
+        </p>
+        <p>
+          Accepted for presentation and publication at the prestigious <strong>2026 IEEE International Conference for Convergence in Engineering (ICCE)</strong> (19–21 November 2026).
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements">
+    <div class="section-header">
+      <span class="section-tag">Recognition</span>
+      <h2>Honors & Achievements</h2>
+      <p>Notable accolades from competitive hackathons, technical quizzes, and coding challenges</p>
+    </div>
+
+    <div class="achievements-grid">
+      <!-- Hackathon 1st Prize -->
+      <div class="achievement-card">
+        <div class="achievement-img-wrapper">
+          <img src="assets/images/hackathon-kpr-winner.jpg" alt="1st Prize Winners - CICADA'25 National Level Hackathon">
+        </div>
+        <span class="achievement-place">1st Prize Winner</span>
+        <h4>National-Level Hackathon</h4>
+        <p>
+          <strong>KPR Institute of Engineering and Technology</strong> — Won 1st Prize (Cash Prize: ₹25,000) at <strong>CICADA'25 (24-Hour National Level Hackathon)</strong> by developing <strong>Field Health Intelligence and Triage (FHIT)</strong>, an intelligent healthcare solution that assesses patient health conditions, identifies potential risks, and prioritizes emergency cases to support faster medical triage.
+        </p>
+      </div>
+
+      <!-- Hackathon 26 -->
+      <div class="achievement-card">
+        <div class="achievement-img-wrapper">
+          <img src="assets/images/cert1.jpeg" alt="Hackathon 26 Participation">
+        </div>
+        <span class="achievement-place">Technical Innovation</span>
+        <h4>Hackathon 26</h4>
+        <p>
+          <strong>Nandha Engineering College</strong> — Participated in Hackathon 26, demonstrating rapid innovation, teamwork, and technical development to prototype solutions under competitive deadlines.
+        </p>
+      </div>
+
+      <!-- Technical Quiz 3rd Prize -->
+      <div class="achievement-card">
+        <div class="achievement-img-wrapper">
+          <img src="assets/images/cert4.jpeg" alt="Technical Quiz Competition - The Brainiac Certificate">
+        </div>
+        <span class="achievement-place">3rd Prize</span>
+        <h4>Technical Quiz Competition</h4>
+        <p>
+          <strong>Nandha Engineering College</strong> — Secured 3rd position in The Brainiac event during the SYNectics'25 National Level Technical Symposium organized by the Department of Computer Science and Engineering, demonstrating rapid analytical thinking and core computing knowledge.
+        </p>
+      </div>
+
+      <!-- LeetCode 297 Problems -->
+      <div class="achievement-card">
+        <div class="achievement-icon"><i class="fa-solid fa-code"></i></div>
+        <span class="achievement-place">297+ Problems</span>
+        <h4>LeetCode Problem Solving</h4>
+        <p>
+          Consistent problem solver on LeetCode with 297+ problems solved, honing strong data structures and algorithm design principles.
+        </p>
+      </div>
+
+      <!-- Government Typewriting Distinction -->
+      <div class="achievement-card">
+        <div class="achievement-icon"><i class="fa-solid fa-keyboard"></i></div>
+        <span class="achievement-place">Distinction</span>
+        <h4>Government Typewriting Exams</h4>
+        <p>
+          Successfully completed State Government Typewriting Examinations in both <strong>English and Tamil</strong> with Distinction, reflecting discipline, precision, and typing speed.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certificates">
+    <div class="section-header">
+      <span class="section-tag">Credentials</span>
+      <h2>Certifications & Verified Courses</h2>
+      <p>Continuous learning verified through premier academic bodies including NPTEL (IIT Roorkee, IIT Kharagpur, IIT Madras), GUVI, and industry workshops</p>
+    </div>
+
+    <!-- Certificate Visual Showcase -->
+    <div class="cert-grid">
+      <!-- 1. Data Analytics with Python -->
+      <div class="cert-card">
+        <div class="cert-img-wrapper">
+          <img src="assets/images/cert-data-analytics.jpg" alt="NPTEL Data Analytics with Python Certification">
+        </div>
+        <div class="cert-content">
+          <h4>Data Analytics with Python</h4>
+          <span class="cert-org">NPTEL — IIT Roorkee (Elite | 79%)</span>
+          <p>12-week NPTEL Elite Certification through SWAYAM (Jan–Apr 2026). Achieved a consolidated score of 79% (Assignments: 24.69/25, Exam: 54.69/75) mastering Python analytics, data manipulation with NumPy and Pandas, and exploratory data analysis.</p>
+        </div>
+      </div>
+
+      <!-- 2. Integrated Waste Management for a Smart City -->
+      <div class="cert-card">
+        <div class="cert-img-wrapper">
+          <img src="assets/images/cert-smart-city.jpg" alt="NPTEL Integrated Waste Management for a Smart City Certification">
+        </div>
+        <div class="cert-content">
+          <h4>Integrated Waste Management for a Smart City</h4>
+          <span class="cert-org">NPTEL — IIT Kharagpur (Elite | 62%)</span>
+          <p>12-week NPTEL Elite Certification through SWAYAM (Jul–Oct 2026). Scored 62% (Assignments: 23.75/25, Exam: 38.25/75) focusing on smart city sustainability, modern solid waste management techniques, and circular urban infrastructure.</p>
+        </div>
+      </div>
+
+      <!-- 3. be10x AI Tools and ChatGPT Workshop -->
+      <div class="cert-card">
+        <div class="cert-img-wrapper">
+          <img src="assets/images/cert-be10x.jpg" alt="be10x AI Tools and ChatGPT Workshop Certificate">
+        </div>
+        <div class="cert-content">
+          <h4>AI Tools & ChatGPT Workshop</h4>
+          <span class="cert-org">be10x (Verified Completion)</span>
+          <p>Completed intensive workshop on prompt engineering and productivity with Generative AI tools (July 5th, 2026). Certified in generating presentations in under 5 min, data analysis using AI in under 30 min, and debugging code in under 10 min.</p>
+        </div>
+      </div>
+
+      <!-- 4. English for Competitive Exams -->
+      <div class="cert-card">
+        <div class="cert-img-wrapper">
+          <img src="assets/images/cert3.jpeg" alt="NPTEL English Certification">
+        </div>
+        <div class="cert-content">
+          <h4>English for Competitive Exams</h4>
+          <span class="cert-org">NPTEL — IIT Madras (75%)</span>
+          <p>Completed online certification via SWAYAM, enhancing communication proficiency, technical vocabulary, and academic reading comprehension.</p>
+        </div>
+      </div>
+
+      <!-- 5. Cloud Computing -->
+      <div class="cert-card">
+        <div class="cert-img-wrapper">
+          <img src="assets/images/cert2.jpeg" alt="NPTEL Cloud Computing Certification">
+        </div>
+        <div class="cert-content">
+          <h4>Cloud Computing</h4>
+          <span class="cert-org">NPTEL — IIT Kharagpur (61%)</span>
+          <p>Covered cloud architecture, virtualization, distributed systems, storage models, and practical cloud infrastructure implementations.</p>
+        </div>
+      </div>
+
+      <!-- 6. GUVI | HCL - ChatGPT for Everyone -->
+      <div class="cert-card">
+        <div class="cert-img-wrapper">
+          <img src="assets/images/cert-guvi-chatgpt.jpg" alt="GUVI HCL ChatGPT for Everyone Certificate">
+        </div>
+        <div class="cert-content">
+          <h4>ChatGPT for Everyone</h4>
+          <span class="cert-org">GUVI | HCL (Google for Education Partner)</span>
+          <p>Certificate of Achievement awarded for successful completion of <strong>ChatGPT for Everyone</strong> (issued Nov 22, 2025). Certified foundational competencies in generative AI prompting, everyday automation, and practical workflows.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="section-header">
+      <span class="section-tag">Get in Touch</span>
+      <h2>Contact Me</h2>
+      <p>Have an internship opportunity, collaboration idea, or question? Feel free to reach out!</p>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-info-list">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=goldaevangelin897@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-card-item">
+          <div class="contact-icon-box">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Email</h4>
+            <p>goldaevangelin897@gmail.com</p>
+          </div>
+        </a>
+
+        <a href="tel:9361336180" class="contact-card-item">
+          <div class="contact-icon-box">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Phone</h4>
+            <p>+91 9361336180</p>
+          </div>
+        </a>
+
+        <a href="https://linkedin.com/in/evangelingolda" target="_blank" rel="noopener noreferrer" class="contact-card-item">
+          <div class="contact-icon-box">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+          <div class="contact-details">
+            <h4>LinkedIn</h4>
+            <p>linkedin.com/in/evangelingolda</p>
+          </div>
+        </a>
+
+        <a href="https://github.com/evangelin-golda" target="_blank" rel="noopener noreferrer" class="contact-card-item">
+          <div class="contact-icon-box">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <div class="contact-details">
+            <h4>GitHub</h4>
+            <p>github.com/evangelin-golda</p>
+          </div>
+        </a>
+
+        <a href="https://leetcode.com/u/EVANGELIN_GOLDA" target="_blank" rel="noopener noreferrer" class="contact-card-item">
+          <div class="contact-icon-box">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <div class="contact-details">
+            <h4>LeetCode</h4>
+            <p>leetcode.com/u/EVANGELIN_GOLDA</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="contact-message-box">
+        <h3>Let's Build Something Together</h3>
+        <p>
+          I am actively seeking an <strong>Internship</strong> to contribute to real-world products using AI, machine learning, and modern software development practices.
+        </p>
+        <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=goldaevangelin897@gmail.com" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            <i class="fa-solid fa-paper-plane"></i> Send an Email
+          </a>
+          <a href="assets/docs/Evangelin_Golda_Resume.pdf" download="Evangelin_Golda_Resume.pdf" class="btn-secondary">
+            <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 <span class="footer-accent">Evangelin Golda</span>. All rights reserved.</p>
+  </footer>
+
+  <!-- Mobile Menu & Active Nav Script -->
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+
+    // Ensure direct download functionality for resume buttons
+    document.querySelectorAll('a[download]').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        const href = this.getAttribute('href');
+        const filename = this.getAttribute('download') || 'Evangelin_Golda_Resume.pdf';
+        const tempLink = document.createElement('a');
+        tempLink.href = href;
+        tempLink.setAttribute('download', filename);
+        document.body.appendChild(tempLink);
+        tempLink.click();
+        document.body.removeChild(tempLink);
+      });
+    });
+  </script>
+</body>
+</html>
